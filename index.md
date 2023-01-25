@@ -20,8 +20,6 @@ collaborative_notes: https://pad.carpentries.org/2023-03-27-online
 eventbrite:
 ---
 
-{% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
-
 {% comment %}
 HEADER
 
@@ -74,7 +72,6 @@ displayed if the 'eventbrite' field in the header is not set.
   scrolling="auto">
 </iframe>
 {% endif %}
-
 
 <h2 id="general">Algemene informatie</h2>
 
@@ -182,8 +179,7 @@ special instructions.
 <p id="accessibility">
   <strong>Toegankelijkheid:</strong>
 {% if online == "false" %}
-  We are committed to making this workshop
-  accessible to everybody.  For workshops at a physical location, the workshop organizers have checked that:
+  We are committed to making this workshop accessible to everybody.  For workshops at a physical location, the workshop organizers have checked that:
 </p>
 <ul>
   <li>The room is wheelchair / scooter accessible.</li>
@@ -224,7 +220,7 @@ Display the contact email address set in the configuration file.
     {% else %}
     to-be-announced
     {% endif %}
-    voor meer informatie.</p>
+    voor meer informatie.
 </p>
 
 <p id="roles">
