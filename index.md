@@ -225,8 +225,7 @@ Display the contact email address set in the configuration file.
 
 <p id="roles">
   <strong>Rollen:</strong>
-    Om meer te weten te komen over de verschillende rollen tijdens de workshop (wie doet wat) kun je de
-    q<a href="https://carpentries.org/workshop_faq/#what-are-the-roles-of-everyone-participating-in-a-workshop">Workshop FAQ</a> bekijken.  
+    Om meer te weten te komen over de verschillende rollen tijdens de workshop (wie doet wat) kun je de <a href="https://carpentries.org/workshop_faq/#what-are-the-roles-of-everyone-participating-in-a-workshop">Workshop FAQ</a> bekijken.  
 </p>
 
 {% comment %}
