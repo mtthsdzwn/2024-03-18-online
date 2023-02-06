@@ -389,7 +389,7 @@ please preview your site before committing, and make sure to run
   {% endif %}
   workshop,
   is het nodig dat je onderstaande software voorafgaand aan de les installeert op je computer.
-  Je hebt ook een moderne web browseer nodig.
+  Je hebt ook een moderne web browser nodig.
 </p>
 <p>
   De Carpentries houden een lijst bij van problemen die vaak voorkomen tijdens installatie van software: 
