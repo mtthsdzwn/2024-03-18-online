@@ -262,7 +262,7 @@ CODE OF CONDUCT
 
 <p class="text-center">
   <a href="https://goo.gl/forms/KoUfO53Za3apOuOK2">
-    <button type="button" class="btn btn-info">Rapporeer een schending van de gedragscode</button>
+    <button type="button" class="btn btn-info">Rapporteer een schending van de gedragscode</button>
   </a>
 </p>
 <hr/>
