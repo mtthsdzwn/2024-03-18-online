@@ -11,10 +11,10 @@ latitude: "0"
 longitude: "0"
 humandate: "Mar 18-19 & 25-26, 2024"
 humantime: "09:00-12:00"
-startdate: 2023-03-27
-enddate: 2023-04-04
+startdate: 2024-03-18
+enddate: 2024-03-26
 instructor: ["Kristina Hettne", "Levi Damsma", "Peter Verhaar", "Matthijs de Zwaan"]
-helper: ["Puck Wildschut"]
+helper: ["Harold Miesen"]
 email: ["k.m.hettne@library.leidenuniv.nl", "levi.damsma@ru.nl", "p.a.f.verhaar@library.leidenuniv.nl", "m.c.de.zwaan@vu.nl"]
 collaborative_notes: https://pad.carpentries.org/2024-03-18-online
 eventbrite:
@@ -339,14 +339,14 @@ of code below the Schedule `<h2>` header below with
 `{% include custom-schedule.html %}`.
 {% endcomment %}
 
-<h2 id="schedule">Schedule</h2>
+<h2 id="schedule">Programma</h2>
 
 {% if site.carpentry == "swc" %}
 {% include swc/schedule.html %}
 {% elsif site.carpentry == "dc" %}
 {% include dc/schedule.html %}
 {% elsif site.carpentry == "lc" %}
-{% include lc/schedule.html %}
+{% include custom-schedule.html %}
 {% elsif site.carpentry == "incubator" %}
 This workshop is teaching a lesson in [The Carpentries Incubator](https://carpentries-incubator.org/).
 Please check [the lesson homepage]({{ site.incubator_lesson_site }}) for a list of lesson sections and estimated timings.
@@ -415,4 +415,17 @@ to include the relevant installation instructions.
 {% comment %}
 These are the installation instructions for the tools used
 during the workshop.
+{% endcomment %}
+
+  {% if site.carpentry == "swc" %}
+  {% include swc-install-instructions %}
+  {% elsif site.carpentry == "dc" %}
+  {% include dc-install-instructions %}
+  {% elsif site.carpentry == "lc" %}
+  {% include lc/setup.html %}
+  {% endif %}
+
+{% comment %}
+  Deze is ook te gebruiken voor openrefine maar moet dan vertaald worden
+  {% include install_instructions/openrefine.html %}
 {% endcomment %}
